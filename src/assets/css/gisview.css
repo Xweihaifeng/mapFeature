@@ -1,0 +1,59 @@
+.igisshow {
+    width: 100%;
+    height: 100%;
+}
+
+.igis {
+    background: #FFFFFF;
+    width: 100%;
+    height: 100%;
+}
+
+.mapTools {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    background-color: #FFFFFF;
+}
+
+.down {
+    height: 60px;
+    padding: 20px;
+}
+
+.down a {
+    text-decoration: initial;
+    border-radius: 4px;
+    text-align: center;
+    background: #4088FF;
+    cursor: pointer;
+    padding: 10px 10px;
+    color: #FFFFFF;
+}
+
+.down .downbtn {
+    text-decoration: initial;
+    border-radius: 4px;
+    text-align: center;
+    background: #4088FF url(../../../static/img/download.png) no-repeat 10px 13px;
+    cursor: pointer;
+    padding: 10px 10px 10px 30px;
+    color: #FFFFFF;
+}
+
+.msg {
+    padding: 0 0 0 30px;
+}
+
+.msg .title {
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+.msg .description {
+    font-size: 14px;
+    font-family: 'Microsoft YaHei', Arial;
+}
+hr{
+    margin: 10px 10px 0 10px;
+}

@@ -1,0 +1,141 @@
+.login-bg{
+}
+.lonin-theme {
+    margin: 100px 0 0 200px;
+    float: left;
+    clear: both;
+}
+
+.login-box {
+    position: absolute;
+    top: 250px;
+    right: 200px;
+}
+
+.loginTitle {
+    color: #000000;
+    font-size: 20px;
+    margin: 10px 0 0 0;
+	
+}
+
+.login-input {
+	height: 36px;
+	line-height: 36px;
+	border: 1px solid #DDDDDD;
+	border-radius: 4px;
+	width: 340px;
+	padding-left: 50px;
+	font-size: 14px;
+	color: #666666;
+}
+
+.login-box input.checked {
+	border: 1px solid #2DC2EA;
+}
+
+.loginForm {
+	margin: 0 0 30px 0;
+}
+
+.login-verifi {
+	height: 36px;
+	line-height: 36px;
+	border: 1px solid #DDDDDD;
+	border-radius: 4px;
+	width: 240px;
+	padding-left: 50px;
+	font-size: 14px;
+	color: #666666;
+}
+
+/*
+	 * 修改placeholder颜色
+	 */
+
+::-webkit-input-placeholder {
+	/* WebKit browsers */
+	color: #c9c9c9;
+}
+
+:-moz-placeholder {
+	/* Mozilla Firefox 4 to 18 */
+	color: #c9c9c9;
+}
+
+::-moz-placeholder {
+	/* Mozilla Firefox 19+ */
+	color: #c9c9c9;
+}
+
+:-ms-input-placeholder {
+	/* Internet Explorer 10+ */
+	color: #c9c9c9;
+}
+
+.loginForm .login-common-td {
+	padding-bottom: 20px;
+	text-align: left;
+}
+.login-box input.checked {
+	border: 1px solid #2DC2EA;
+}
+.loginForm #user {
+	background: url('../../../static/img/usericon.png') no-repeat;
+}
+
+.loginForm #pw {
+	background: url('../../../static/img/ps.png') no-repeat;
+}
+
+.loginForm #yzm {
+	background: url('../../../static/img/yzmicon.png') no-repeat;
+}
+
+.loginForm #captchaImage {
+	height: 36px;
+	line-height: 36px;
+	border: 1px solid #e7f0f0;
+	border-radius: 4px;
+	width: 80px;
+	margin-left: 20px;
+}
+
+.login-auto {
+	margin: 0px 30px 0px 30px;
+	text-align: left;
+}
+
+
+.login-auto-text {
+	color: #2DC2EA;
+	font-size: 15px;
+	margin-left: 10px;
+	float: left;
+}
+
+.login-btn {
+	width: 340px;
+	height: 36px;
+	line-height: 36px;
+	color: #BABABA;
+	font-size: 18px;
+	border-radius: 4px;
+	cursor: pointer;
+	background: #327FF3;
+	border: 1px solid #EEEEEE;
+	text-align: center;
+}
+
+.login-btn:hover {
+	color: #FFFFFF;
+}
+
+.login-error {
+	margin-top: 5px;
+	height: 30px;
+	line-height: 30px;
+	color: red;
+	text-align: left;
+	font-size: 14px;
+}
